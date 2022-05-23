@@ -1,0 +1,125 @@
+.container1 {
+  background-color: #6500d8;
+  margin: 20px 20px 20px 20px;
+  height: 600px;
+}
+.topnav {
+  overflow: hidden;
+}
+.topnav img {
+  float: right;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  margin-right: 160px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+.headlines {
+  margin: 20px 20px;
+  color: white;
+}
+.headlines img {
+  float: right;
+  margin-bottom: -400%;
+}
+.instructions {
+  display: flex;
+  gap: 10%;
+  margin: 20px 20px;
+}
+.instructions button {
+  background-color: yellow;
+  border-radius: 10%;
+}
+.container2 {
+  margin: 20px 20px;
+}
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
+.container2 h1 {
+  text-align: center;
+}
+.card {
+  display: flex;
+  float: right;
+  margin-top: -33%;
+  height: 50%;
+  width: 40%;
+  padding-right: 5%;
+  box-sizing: black;
+}
+.section3 h1 {
+  text-align: center;
+}
+.section3 h3 {
+  text-align: center;
+}
+.crd1 {
+  background-color: blue;
+  text-align: center;
+}
+.crd2 {
+  background-color: green;
+  text-align: center;
+}
+.crd3 {
+  background-color: antiquewhite;
+  text-align: center;
+}
+.crd4 {
+  background-color: aquamarine;
+  text-align: center;
+}
+.tallbulding {
+  padding-left: 5%;
+}
+.first-cards {
+  padding: 10px;
+}
+.container {
+  background-color: #f2f2f2;
+}
+
+.new-section {
+  background-color: blue;
+  background-size: cover;
+  height: 600px;
+}
+.logs h1 {
+  text-align: center;
+}
+.nav{
+    background-color: yellow;
+}
+.nav a{
+    text-decoration: none;
+    justify-content: space-between;
+text-align: center;
+}
+.image-cards{
+    display: flex;
+    justify-content: space-between
+}
+.houses{
+    display: flex;
+    justify-content: space-between;
+}
+.categories{
+    background-color: #F2F2F2;
+}
