@@ -123,3 +123,22 @@ text-align: center;
 .categories{
     background-color: #F2F2F2;
 }
+.middle-section{
+  align-items: center;
+}
+.icons{
+  display: flex;
+  justify-content: space-between;
+}
+footer{
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+footer button{
+  background-color: yellow;
+  width: 10vw;
+  height: 5vh;
+
+}
