@@ -1,13 +1,16 @@
 .container1 {
-  background-color: #6500d8;
   margin: 20px 20px 20px 20px;
   height: 600px;
 }
 .topnav {
+  padding-top: 20px;
   overflow: hidden;
 }
 .topnav img {
   float: right;
+}
+.group{
+  background-color: #F2F2F2;
 }
 .topnav a {
   float: right;
@@ -101,36 +104,97 @@
   background-size: cover;
   height: 600px;
 }
+.logs{
+  margin-left: 2%;
+  margin-right: 2%;
+}
 .logs h1 {
   text-align: center;
 }
-.nav{
-    background-color: yellow;
+nav{
+text-decoration: none;
+display: flex;
 }
-.nav a{
+nav a{
+  text-decoration: none;
+  padding: 8px;
+  background-color: #dfeb42;
+  text-align: center;
+}
+nav li{
+  margin: 0;
+  padding: 0;
+  padding: 14px 16px;
+
+  list-style-type: none;
+
+  text-decoration: none;
+}
+.categories h2{
+  text-align: center;
+}
+/* .nav{
+    background-color: yellow;
+} */
+/* .nav a{
     text-decoration: none;
     justify-content: space-between;
 text-align: center;
-}
+} */
 .image-cards{
     display: flex;
     justify-content: space-between
 }
+.image-cards p{
+  color: #6A59D9;
+}
 .houses{
     display: flex;
-    justify-content: space-between;
+    padding: 20px 20px;
+    /* justify-content: space-between; */
 }
 .categories{
+  margin-left: 2%;
+  margin-right: 2%;
     background-color: #F2F2F2;
+    padding: 8px;
 }
+
 .middle-section{
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 50px 50px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  background-color: #F2F2F2;
+}
+.middle-section h5{
+  color: blue;
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+}
+.middle-section span{
+  color: yellow;
 }
 .icons{
   display: flex;
-  justify-content: space-between;
+}
+.agents{
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #F2F2F2;
+  
+}
+.agents h5{
+  font-size: large;
+  text-align: center;
+}
+.agents span{
+  color: blue;
 }
 footer{
+  background-color: rgb(111, 111, 235);
   margin-left: 2%;
   margin-right: 2%;
   display: flex;
@@ -141,4 +205,7 @@ footer button{
   width: 10vw;
   height: 5vh;
 
+}
+.copyright{
+  text-align: center;
 }
